@@ -1,0 +1,229 @@
+body {
+
+    font-family: 'Press Start 2P', cursive;
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/debut-light.png");
+
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+}
+
+.header {
+    background-color: rgba(2, 2, 2, 0.582);
+    /* display: grid; */
+    grid-gap: 1em;
+    text-align: center;
+    color: white;
+    border-radius: 15px 50px;
+    height: auto;
+    margin-bottom: 2vh;
+    padding-top: 1vh; 
+    padding-bottom: 1vh; 
+}
+
+.headerText {
+
+    font-size: 10vh;
+}
+
+.btn-margin {
+
+    margin-bottom: 1vh;
+}
+
+.dropdownLeft {
+
+    position: fixed;
+    left: .5vw;
+    top: 40vh;
+    width: 10vw;
+}
+
+.exchanges {
+
+   font-size: .93vw;
+}
+
+.coinRight {
+
+    position: fixed;
+    right: 2vw;
+    top: 40vh;
+    width: 8vw;
+}
+
+#modalButton {
+
+    background-color: rgba(228, 207, 25, 0.849);
+    border-color: rgba(228, 207, 25, 0.849);
+    font-size: 1.5vw;
+}
+
+#modalButton:hover {
+
+    background-color: rgba(252, 228, 14, 0.849);
+    border-color: rgba(252, 228, 14, 0.849);
+}
+
+footer {
+    clear: both;
+    font-size: 12px;
+    line-height: 5vh;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.596);
+    height: 5vh;;
+    width: 100vw;
+    display: table-row;   
+    position: fixed;
+    bottom: 0px;
+  }
+
+#dropdownExchange {
+      color: white;
+      background-color:#DBAB64;
+      border-style: none;
+      border-radius: 5px;
+}
+
+#dropdownCoin {
+    color: white;
+    background-color:#DBAB64;
+    border-style: none;
+    border-radius: 5px;
+}
+
+#Graph{
+    color: white;
+    background-color: #DBAB64;
+    border-style: none;
+    border-radius: 15px;
+}
+
+.card-body {
+    background: #e9ecef;
+}
+
+.cryptoTitle {
+
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 2vh; 
+}
+
+.articleImg {
+
+    width: 100%;
+    height: auto;
+    margin-bottom: 2vh;
+    border-radius: 5px; 
+}
+
+.article {
+
+    margin-bottom: 2vh;
+    background: rgb(0, 0, 0);
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    padding: 1vw;
+    text-align: center;
+    /* font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; */
+}
+
+.newsCardMain {
+
+    height: 60vh;
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.452);
+    
+}
+
+.newsCardDiv {
+
+    background-color: rgba(255, 255, 255, 0.452);
+}
+
+.title {
+
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+
+.description {
+
+    font-size: 10px;
+    margin-bottom: 1vh;
+    text-align: left;
+}
+
+.source {
+
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 1vh;
+}
+
+.coinCard {
+
+    width: 15vw;
+    height: auto;
+    margin-right: 2vw;
+    margin-bottom: 2vh;
+    padding: 1vw;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.884);
+}
+
+.coinName {
+
+    font-size: 5vh;
+}
+
+.coinValue {
+
+    font-size: 3vh;
+}
+
+.drop {
+
+    border-radius: 5px;
+}
+
+.hide {
+
+    display: none;
+}
+
+#coinRow {
+
+    margin-top: 3vh;
+    min-height: 15vh;
+    background-color: #a5a5a556;
+    padding-left: 5vw;
+    padding-top: 2vh;
+    border-radius: 5px;
+    margin-bottom: 7vh;
+}
+
+.graphBox {
+
+    background-color: rgba(255, 255, 255, 0.425);
+}
+
+.graphBox2 {
+
+    background-color: rgba(255, 255, 255, 0.425);
+  
+}
+
+.widget {
+
+    height: 53vh;
+    margin-top: 2vh;
+}
